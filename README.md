@@ -1,17 +1,11 @@
 # RngTest 
 
-Some examples of use cases for the **orng.wax** smart contract.
-
-```
-action: test [uint64_t signing_value]
-
-Simple use case to check if a signing-value has already been used in a request to the smart contract orng.wax
-```
+A sample about the use of the **orng.wax** smart contract for WAX Blockchain.
 
 ```
 action: getrng [name client]
 
-Use case for generating a valid signing-value from the transaction hash
+Use case to generate a random number less than 100 
 ```
 
 ## How to Build -
