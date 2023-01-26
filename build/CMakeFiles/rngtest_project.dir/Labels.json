@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/wax/rngtest/build/CMakeFiles/rngtest_project"
+		},
+		{
+			"file" : "/wax/rngtest/build/CMakeFiles/rngtest_project.rule"
+		},
+		{
+			"file" : "/wax/rngtest/build/CMakeFiles/rngtest_project-complete.rule"
+		},
+		{
+			"file" : "/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-install.rule"
+		},
+		{
+			"file" : "/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-mkdir.rule"
+		},
+		{
+			"file" : "/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-download.rule"
+		},
+		{
+			"file" : "/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-update.rule"
+		},
+		{
+			"file" : "/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-patch.rule"
+		},
+		{
+			"file" : "/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-configure.rule"
+		},
+		{
+			"file" : "/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-build.rule"
+		},
+		{
+			"file" : "/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"rngtest_project"
+		],
+		"name" : "rngtest_project"
+	}
+}

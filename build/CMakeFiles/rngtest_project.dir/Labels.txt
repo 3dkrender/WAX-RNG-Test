@@ -1,0 +1,14 @@
+# Target labels
+ rngtest_project
+# Source files and their labels
+/wax/rngtest/build/CMakeFiles/rngtest_project
+/wax/rngtest/build/CMakeFiles/rngtest_project.rule
+/wax/rngtest/build/CMakeFiles/rngtest_project-complete.rule
+/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-install.rule
+/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-mkdir.rule
+/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-download.rule
+/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-update.rule
+/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-patch.rule
+/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-configure.rule
+/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-build.rule
+/wax/rngtest/build/rngtest_project-prefix/src/rngtest_project-stamp/rngtest_project-test.rule

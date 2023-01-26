@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/wax/rngtest/src/../include/rngtest.hpp
+eosio/eosio.hpp
+-
+eosio/crypto.hpp
+-
+eosio/transaction.hpp
+-
+wax-orng-interface.hpp
+-
+
+/wax/rngtest/src/../include/wax-orng-interface.hpp
+eosio/eosio.hpp
+-
+
+/wax/rngtest/src/rngtest.cpp
+rngtest.hpp
+-
+

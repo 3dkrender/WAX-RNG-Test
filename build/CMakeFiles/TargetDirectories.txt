@@ -1,0 +1,3 @@
+/wax/rngtest/build/CMakeFiles/rebuild_cache.dir
+/wax/rngtest/build/CMakeFiles/rngtest_project.dir
+/wax/rngtest/build/CMakeFiles/edit_cache.dir
