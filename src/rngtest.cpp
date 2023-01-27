@@ -59,11 +59,8 @@ ACTION rngtest::receiverand(uint64_t signing_value, const checksum256& random_va
    uint64_t max_value = 100;
    auto byte_array = random_value.extract_as_byte_array();
 
-   uint64_t random_int = 0;
-   for (int i = 0; i < 8; i++) {
-      random_int <<= 8;
-      random_int |= (uint64_t)byte_array[i];
-   }
+   uint8_t random_int = 0;
+   random_int = byte_array[0];
 
    uint64_t num1 = random_int % max_value;
 
