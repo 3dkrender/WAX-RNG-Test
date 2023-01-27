@@ -62,7 +62,7 @@ ACTION rngtest::receiverand(uint64_t signing_value, const checksum256& random_va
    uint8_t random_int = 0;
    random_int = byte_array[0];
 
-   uint64_t num1 = random_int % max_value;
+   uint8_t num1 = random_int % max_value;
 
    auto iCustomers = _customers.require_find(signing_value, "Error: Petition not found!");
 
