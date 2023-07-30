@@ -55,14 +55,14 @@ ACTION rngtest::getrnd( name& customer_id ) {
 ACTION rngtest::receiverand(uint64_t signing_value, const checksum256& random_value) {
    require_auth(ORNG_CONTRACT);
 
-   //cast the random_value to a smaller number
-   uint64_t max_value = 100;
+   uint8_t divisor = 100; //To cast the random_chunk extracted from random_value to a smaller number (0-99)
+
    auto byte_array = random_value.extract_as_byte_array();
 
-   uint8_t random_int = 0;
-   random_int = byte_array[0];
+   uint16_t random_chunk = 0;
+   random_chunk = (static_cast<uint16_t>(byte_array[0]) << 8) + static_cast<uint16_t>(byte_array[1]);
 
-   uint8_t num1 = random_int % max_value;
+   uint8_t num1 = random_chunk % divisor;
 
    auto iCustomers = _customers.require_find(signing_value, "Error: Petition not found!");
 
